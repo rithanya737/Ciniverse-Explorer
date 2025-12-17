@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* head css */
+.head {
+    margin-top: 20px;
+    display: flex;
+    background: linear-gradient(90deg, black, #c89116);
+    color: #fff;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;/* <-- slight curve */
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: #eae0e0;
+    transform: scale(1.05);
+}
+
+
+
+/* End of head css */
+
+.lg-bt {
+    background: linear-gradient(90deg, #c89116, #4c3607);
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 40px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6%;
+    transition: 0.3s ease;
+}
+
+.lg-bt:hover {
+    background: linear-gradient(90deg, #e8e6e2, #e6e1d5c4);
+    color: #151515;
+    transform: scale(1.05);
+}
+
+/* Body css */
+.head-section {
+    height: 500px;
+    background-image: url("Images/000-home-bg.png");
+    background-origin: content-box;
+    padding: 2% 7% 0 7%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Small "WELCOME TO" text */
+.welcome-text {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* Big golden title */
+.main-title {
+    font-size: 150px;
+    font-family: "Great vibes", cursive;
+    font-weight: bold;
+    color: #c89116;
+    line-height: 70px;
+    margin-bottom: 5%;
+}
+
+.animation {
+    animation: slideRight 0.8s ease-out forwards;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

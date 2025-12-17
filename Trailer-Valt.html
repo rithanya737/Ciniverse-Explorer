@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailer-Valt</title>
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Trailer-Valt.css">
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Head section -->
+    <header>
+        <div class="container head">
+            <!-- div 1 -->
+            <div class="heading">CineVerse Explorer</div>
+            <!-- div 2 -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ms-auto gap-3">
+                            <li class="nav-item" style="padding-top: 10px;">
+                                <a class="nav-link nav-btn" href="home.html"> &emsp;🏠 Home&emsp;</a>
+                            </li>
+                            <li class="nav-item" style="padding-top: 10px;">
+                                <a class="nav-link nav-btn" href="char-quiz.html">👀 Character Quiz</a>
+                            </li>
+                            <li class="nav-item" style="padding-top: 10px;">
+                                <a class="nav-link nav-btn" href="Search.html">&emsp;🔍 Search &emsp;</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" class="profile" href="profile.html"><img class="rounded-circle"
+                                        width="50" height="50" src="Images/default-profile.png" alt="profile pic"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Movie Line -->
+    <div class="container mov-line">
+        <p>When I buy a new book, I always read the last page first. That way, in case I die before I finish, I know how
+            it ends.</p>
+    </div>
+    <div class="upper-section container">
+        <!-- Upcoming movie posters -->
+        <div class="up-mov container">
+            <div class="title">
+                <h2>Upcoming Movies</h2>
+            </div>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo1.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo2.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo3.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo4.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo5.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo6.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo7.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo8.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo9.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                    <div class="carousel-item up-mov">
+                        <div class="img-wrapper">
+                            <img src="Images/up-mo10.png" class="d-block" alt="upcoming-movie">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Movie Line Investigator -->
+        <div class="container mov-line-inv">
+
+            <input class="form-control title-m-l" type="text" value="Movie Line Investigator" style="background-color: white;"
+                aria-label="Disabled input example" disabled readonly>
+            <div class="input-group mb-3 title-m-l">
+                <input type="text" class="form-control" placeholder="Enter your guess" aria-label="Enter your guess"
+                    aria-describedby="button-addon2">
+                <button class="btn" type="button" id="button-addon2" style="background-color: #c89116;">Enter</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="lower-section container">
+        <!-- Trailer Valt -->
+        <div class="trailer container">
+            <div class="title-box">
+                <h1>Trailer Valt</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 content-box">
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/up-mo1.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">READY OR NOT 2_ HERE I COME</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/up-mo2.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Raja Saab</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/up-mo3.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Project Hail Mary </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/up-mo4.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Supergirl: Woman of Tomorrow </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo1.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">The Greatest Of All Time</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo2.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">VENOM: LET THERE BE CARNAGE</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo3.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Hero</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo4.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Kandukonden Kandukonden</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo5.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">The Maze Runner</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo6.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Zootopia 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo7.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">Stree 2</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <video src="Videos/old-mo8.mp4" controls class="card-img-top" alt="video"></video>
+                        <div class="card-body">
+                            <h5 class="card-title">IT</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Movie List -->
+        <div class="container top-mov">
+            <!--  -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-light " style="padding-top: 40px;">
+        <div class="container" style="background: linear-gradient(90deg, black, #c89116);">
+            <h5>CineVerse Explorer</h5>
+            <p>Your hub for movie trailers, character quizzes, and daily challenges.</p>
+            <p>© 2025 CineVerse Explorer. All Rights Reserved.</p>
+            <p>☎ 9976882264&emsp;📩 rithanyar2007@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

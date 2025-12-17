@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* head css */
+.head {
+    margin-top: 20px;
+    display: flex;
+    background: linear-gradient(90deg, black, #c89116);
+    color: #fff;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;/* <-- slight curve */
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: #eae0e0;
+    transform: scale(1.05);
+}
+
+/* Heading css */
+.heading{
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* End of head css */
